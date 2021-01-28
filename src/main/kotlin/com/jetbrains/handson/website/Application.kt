@@ -15,11 +15,10 @@ import java.io.File
 
 val blogEntries: MutableList<BlogEntry> = mutableListOf()
 
-const val DEADLINES_PATH = "/home/artermiloff/IdeaProjects/creating-website-ktor/src/main/resources/text/deadlines.txt"
-const val REMOVEALL_PATH =
-    "/home/artermiloff/IdeaProjects/creating-website-ktor/src/main/resources/files/removeall.html"
-const val ADD_PATH = "/home/artermiloff/IdeaProjects/creating-website-ktor/src/main/resources/files/added.html"
-const val REMOVE_PATH = "/home/artermiloff/IdeaProjects/creating-website-ktor/src/main/resources/files/removed.html"
+const val DEADLINES_PATH = "src/main/resources/text/deadlines.txt"
+const val REMOVEALL_PATH = "src/main/resources/files/removeall.html"
+const val ADD_PATH = "src/main/resources/files/added.html"
+const val REMOVE_PATH = "src/main/resources/files/removed.html"
 
 fun main(args: Array<String>) {
     loadBlogEntries()
